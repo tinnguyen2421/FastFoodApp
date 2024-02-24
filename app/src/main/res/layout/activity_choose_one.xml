@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.dapm_food.ChooseOne">
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="265dp"
+        android:layout_height="330dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="@font/caudex"
+            android:text="Tìm những món ăn ngon xung quanh bạn hoặc đăng lên những món ăn của bạn!!"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/chef"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FA3E03"
+            android:text="Bạn là chủ cửa hàng "
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/customer"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FA3E03"
+            android:text="Bạn là khách hàng"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/delivery"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#FA3E03"
+            android:text="Bạn là Người giao hàng"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

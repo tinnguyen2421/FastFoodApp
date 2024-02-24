@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1010344774307",
+    "firebase_url": "https://thucannhanhv2-default-rtdb.firebaseio.com",
+    "project_id": "thucannhanhv2",
+    "storage_bucket": "thucannhanhv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010344774307:android:39d5eca98178c13fec0d16",
+        "android_client_info": {
+          "package_name": "com.example.appfood_by_tinnguyen2421"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXlz-lR4W8W6aIUUPntywzaXMS4ZEPFEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

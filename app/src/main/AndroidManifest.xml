@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".Chef.ChefActivity.ChefCategoryAfterChoose"
+            android:exported="false" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerCategoriesAfterChoose"
+            android:exported="false" />
+        <activity
+            android:name=".Chef.ChefActivity.Chef_PostCate"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryPerson.DeliveryActivity.Delivery_ShippingOrder"
+            android:label="Đơn hàng đang giao"
+            />
+        <activity
+            android:name=".DeliveryPerson.DeliveryActivity.DeliveryShipOrderView"
+            android:label="Đơn hàng đang giao" />
+        <activity
+            android:name=".DeliveryPerson.DeliveryActivity.DeliveryPendingOrderView"
+            android:label="Đơn hàng đang chờ" />
+        <activity android:name=".BottomNavigation.Delivery_FoodPanelBottomNavigation" />
+        <activity
+            android:name=".DeliveryAccount.DeliverySendOtp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".DeliveryAccount.DeliveryForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".DeliveryAccount.DeliveryLoginEmail"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".DeliveryAccount.DeliveryLoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".DeliveryAccount.DeliveryVerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".DeliveryAccount.DeliveryRegisteration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".Chef.ChefActivity.ChefPreparedOrderView"
+            android:label="Đơn hàng đã chuẩn bị" />
+        <activity
+            android:name=".Chef.ChefActivity.ChefPreparedOrder"
+            android:label="Đơn hàng đã chuẩn bị" />
+        <activity
+            android:name=".Chef.ChefActivity.ChefOrdertobePrepareView"
+            android:label="Đơn hàng cần chuẩn bị" />
+        <activity
+            android:name=".Chef.ChefActivity.ChefOrderTobePrepared"
+            android:label="Đơn hàng cần chuẩn bị" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerPaymentOTP"
+            android:label="Thanh toán Online" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerOnlinePayment"
+            android:label="Thanh toán online" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerPayment"
+            android:label="Đơn hàng cần thanh toán" />
+        <activity
+            android:name=".Customerr.CustomerActivity.PayableOrders"
+            android:label="Thanh toán đơn hàng" />
+        <activity
+            android:name=".Customerr.CustomerActivity.PendingOrders"
+            android:label="Đơn hàng đang chờ" />
+        <activity
+            android:name=".Chef.ChefActivity.Chef_order_dishes"
+            android:label="Đơn hàng" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerPhoneSendOTP"
+            android:label="Số điện thoại" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerPhonenumber"
+            android:label="Số điện thoại" />
+        <activity
+            android:name=".CustomerAccount.CustomerForgotPassword"
+            android:label="Quên Mật khẩu" />
+        <activity
+            android:name=".Customerr.CustomerActivity.CustomerPassword"
+            android:label="Mật khẩu" />
+        <activity android:name=".Customerr.CustomerActivity.OrderDish" />
+        <activity
+            android:name=".Chef.ChefActivity.Chef_Update_Delete_Dish"
+            android:label="Trang chủ" />
+        <activity
+            android:name=".Chef.ChefActivity.Chef_PostDish"
+            android:label="Đăng món" />
+        <activity
+            android:name=".BottomNavigation.ChefFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".BottomNavigation.CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing"
+            />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity
+            android:name=".MainMenu"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefAccount.Chefsendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefAccount.Chefloginphone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".CustomerAccount.CustomerSendOtp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".CustomerAccount.CustomerLoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefAccount.ChefVerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".CustomerAccount.CustomerVerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefAccount.ChefForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefAccount.ChefLoginEmail"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChooseOne"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".ChefAccount.ChefRegisteration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".CustomerAccount.CustomerLoginEmail"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".CustomerAccount.CustomerRegisteration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppThemeNoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".SendNotification.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SendNotification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2548889660903414~9784225404" />
+    </application>
+
+</manifest>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    app:cardElevation="8dp"
+    android:id="@+id/cardview1"
+    app:cardCornerRadius="8dp"
+    android:layout_marginBottom="28dp"
+    android:layout_height="235dp">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="170dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/menu_image"
+                android:layout_width="180dp"
+                android:layout_height="170dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop" />
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dishname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="5dp"
+            android:text="Tên món ăn"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/share_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/baseline_share_24" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/chef_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="5dp"
+
+            android:text="Bán chạy"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dishprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed-light"
+                android:paddingLeft="5dp"
+                android:text="VND"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/likeBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_heart" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

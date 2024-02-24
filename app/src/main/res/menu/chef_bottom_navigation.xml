@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chefHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Trang chủ" />
+
+
+    <item
+        android:id="@+id/PendingOrders"
+        android:icon="@drawable/ic_neworder"
+        android:title="Đơn hàng đang chờ" />
+
+
+    <item
+        android:id="@+id/Orders"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="Đơn hàng" />
+
+
+    <item
+        android:id="@+id/ChefPostDish"
+        android:icon="@drawable/ic_dish_spoon_knife"
+        android:title="Đăng món" />
+
+
+</menu>

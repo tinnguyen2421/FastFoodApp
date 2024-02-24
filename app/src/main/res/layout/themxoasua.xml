@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/number_btn"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="100dp"
+            app:backGroundColor="#FA3E03"
+            app:backgroundDrawable="@drawable/elegant_btnshape" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_insertcart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:textSize="20dp"
+        android:backgroundTint="@color/Xanhbaemin"
+        android:text="Thêm Vào Giỏ Hàng" />
+
+</LinearLayout>

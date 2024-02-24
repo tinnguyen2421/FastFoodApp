@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BobbeeFood</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="State">
+        <item>      </item>
+        <item>Thành Phố Hồ Chí Minh</item>
+        <item>Thành Phố Hà Nội</item>
+        <item>Tỉnh Tiền Giang</item>
+    </string-array>
+
+    <string-array name="shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="DishName">
+        <item>Gà Rán</item>
+        <item>Cơm Chiên</item>
+        <item>Pizza</item>
+        <item>Sandwich</item>
+        <item>Hambuger</item>
+        <item>Mì Xào</item>
+        <item>Bún riêu cua</item>
+        <item>Bún chả Hà Nội</item>
+        <item>Bánh tráng trộn</item>
+        <item>Bánh tráng cuốn</item>
+        <item>Gỏi cuốn</item>
+        <item>GBánh mì pita</item>
+        <item>Hot dog</item>
+        <item>Khoai tây chiên</item>
+        <item>Bánh xèo</item>
+        <item>Bánh xôi</item>
+        <item>Burrito</item>
+        <item>Taco</item>
+        <item>Donuts</item>
+        <item>Tteokbokki</item>
+        <item>Kimchi </item>
+        <item>Kimbap</item>
+        <item>Rumali roti</item>
+        <item>Bibimbap</item>
+        <item>Gimbap</item>
+        <item>Sushi </item>
+        <item>Sashimi </item>
+        <item>Ramen </item>
+        <item>Udon </item>
+        <item>Tonkatsu</item>
+        <item>Cơm cà ry</item>
+        <item>Dorayaki </item>
+        <item>Sting</item>
+        <item>Cà phê</item>
+        <item>Rau má </item>
+        <item>Pad Thai</item>
+        <item>Dim Sum</item>
+        <item></item>
+        <item>Dum chicken</item>
+        <item></item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
